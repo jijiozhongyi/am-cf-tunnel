@@ -15,7 +15,7 @@ let proxyIPs;
 // if you want to use ipv6 or single proxyIP, please add comment at this line and remove comment at the next line
 let proxyIP = '';//
 
-let sub = 'https://vless.free2025.dynv6.net/b6474cbd-f3a6-4477-88e0-ea141145d308';// 留空则使用内置订阅
+let sub = '';// 留空则使用内置订阅
 let subconverter = 'url.v1.mk';// clash订阅转换后端，自带虚假uuid和host订阅。
 let subconfig = "https://raw.githubusercontent.com/amclubs/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅配置文件
 let subProtocol = 'https';
